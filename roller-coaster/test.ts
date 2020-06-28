@@ -6,7 +6,7 @@ const fs = require('fs');
 
 
 /**
- * Tortoise and Hare algorithm to solve the problem, first we look for the smallest cycle, then we compute what
+ * Tortoise and Hare algorithm to solve the problem, first we look for the earliest cycle, then we compute what
  * is left after the end of the last cycle and before the beginning of the first cycle, then we just need to multiply every
  * gain we made by tour kept in memory by the number of time those tours are played.
  * @param  {number} L the limit of people accepted in a tour 
